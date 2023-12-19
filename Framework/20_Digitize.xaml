@@ -129,9 +129,6 @@
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="Digitizes the specified file. OCR engine is process-dependant!&#xA;&#xA;Any pre-processing logic that should be executed prior to digitization belongs here." DisplayName="Digitize" sap:VirtualizedContainerService.HintSize="418.4,1227.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
-    <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="FoundTargetDoc" />
-    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
